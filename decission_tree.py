@@ -201,7 +201,7 @@ def add_conf_mat(conf_mat, conf_mat_te):
 
 
 if __name__ == '__main__':
-    file_name = 'bank.csv'
+    file_name = 'wine.csv'
     data_set = load_CSV_file(file_name)
 
     for i in range(len(data_set[0])):
